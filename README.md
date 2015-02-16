@@ -17,7 +17,7 @@
 <p>Create an empty wrapper element, in this case a <code>&lt;div&gt;</code>, and assign a unique id or class to it. Then pass that id into the <code>jQMeter()</code> method.</p>
 
 <pre><code>
-<div id="jqmeter-container"></div>
+&lt;div id="jqmeter-container"></div>
 &lt;script type="text/javascript">       
 $(document).ready(function(){ 
     $('#jqmeter-container').jQMeter(); 
