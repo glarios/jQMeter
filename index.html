@@ -1,0 +1,86 @@
+<h2>jQMeter</h2>
+<p>jQMeter is a simple, light-weight jQuery plugin that allows you to display an animated horizontal or vertical progress meter. Just pass in the goal and amount raised or completed, and the rest is optional.</p>
+<p>It has a simple design out-of-the-box, but this is on purpose so that you can customize the look to match your needs. You can pass several formatting options including width, height, background bar color, bar color, etc. You can also choose to display the percentage completed or not, as well as control the animation speed.</p>
+<p>All you need to do is include the plugin file into your webpage, create a target wrapper element, and pass that element's id into the method.</p>
+
+<h3>Required Files</h3>
+<ol>
+  <li><a href="http://www.jquery.com/" target="_blank">jQuery Core JavaScript Library (1.3+)</a></li>
+  <li><a href="http://www.gerardolarios.com/jqmeter/js/jqmeter.min.js" target="_blank">jqmeter.min.js</a></li>
+</ol>
+<p>Include the above files into your webpage and invoke the jQMeter() method.</p>
+<p>You can add your own CSS to style the progress meter to fit your needs.</p>
+
+<h3>How to Use</h3>
+<p>Create an empty wrapper element, in this case a <code>&lt;div&gt;</code>, and assign a unique id or class to it. Then pass that id into the jQMeter method.</p>
+
+<pre><code>&lt;div id="jqmeter-container"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;		
+	$(document).ready(function(){ $('#jqmeter-container').jQMeter(); });
+&lt;/script&gt;</code></pre>
+
+<h3>Configuration</h3>
+		<p>jQMeter is ready to go, and there is no configuration is necessary to get started. It also has several options for customization. Some of these customizations can also be achieved with CSS such as colors, etc. Pass these options as an object into the <code>jQMeter()</code> method like this:</p>
+		<pre><code>$('#jqmeter-container').jQMeter({ orientation:'vertical',width:'50px',height:'200px',barColor:'#bfd255'}); });</code></pre>
+        <table cellspacing="0" cellpadding="0" id="options">
+			<tr>
+				<th>Property</th>
+				<th>Type</th>
+				<th>Default</th>
+				<th>Description</th>
+			</tr>
+            <tr>
+				<td>goal</td>
+				<td>string</td>
+				<td><strong>No default, must be set as option.</strong></td>
+				<td>The goal of the meter. Can take strings like "$9,000" or integers like "9000".</td>
+			</tr>
+			<tr>
+				<td>raised</td>
+				<td>string</td>
+				<td><strong>No default, must be set as option.</strong></td>
+				<td>The goal of the meter. Can take strings like "$9,000" or integers like "9000".</td>
+			</tr>
+			<tr>
+				<td>width</td>
+				<td>string</td>
+				<td>100% - for horizontal<br /><strong>(Must be set for vertical)</strong></td>
+				<td>Set the width of the progress meter. You can pass percentages or pixel based values.</td>
+			</tr>
+			<tr>
+				<td>height</td>
+				<td>string</td>
+				<td>50px - for horizontal<br /><strong>(Must be set for vertical)</strong></td>
+				<td>Set the height of the progress meter. You can pass percentages or pixel based values.</td>
+			</tr>
+			<tr>
+				<td>bgColor</td>
+				<td>string</td>
+				<td>#444</td>
+				<td>Supports hex, rgba, or word values.</td>
+			</tr>
+			<tr>
+				<td>barColor</td>
+				<td>string</td>
+				<td>#bfd255</td>
+				<td>Supports hex, rgba, or word values.</td>
+			</tr>
+			<tr>
+				<td>orientation</td>
+				<td>string</td>
+				<td>horizontal</td>
+				<td>Orientation: 'horizontal' or 'vertical'. If set to 'vertical', width and height need to be specified.</td>
+			</tr>
+			<tr>
+				<td>displayTotal</td>
+				<td>boolean</td>
+				<td>true</td>
+				<td>Whether to display the percentage completed or raised.</td>
+			</tr>
+			<tr>
+				<td>animationSpeed</td>
+				<td>integer</td>
+				<td>2000</td>
+				<td>Animation time in milliseconds.</td>
+			</tr>
+		</table>
