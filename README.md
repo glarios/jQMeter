@@ -1,29 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Gerardo Larios - Web Developer and Designer</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="jquery plugin that allows you to display an animated horizontal or vertical progress meter." />
-<meta name="keywords" content="jquery progress meter, jquery plugin, progress meter, thermometer, progress thermometer, meter" />
-<meta name="google-site-verification" content="przSBLLbnrPKMvAl1OsddHE7n7EwSVUe3M2wltgRqDA" />
-<link rel="SHORTCUT ICON" href="../gerardo-larios.ico" type="image/x-icon" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700" />
-<link rel="stylesheet" href="../css/plugins-main.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-<script src="js/jqmeter.min.js"></script>
-<script>
-$(document).ready(function(e) {
-  $('#jqmeter-horizontal').jQMeter({goal:'$10,000',raised:'$6,600',width:'300px'});
-  $('#jqmeter-horizontal2').jQMeter({goal:'$10,000',raised:'$3000',width:'270px',height:'20px',bgColor:'#dadada',barColor:'#f09246',animationSpeed:1000,displayTotal:false});
-  $('#jqmeter-horizontal3').jQMeter({goal:'$10,000',raised:'$8000',width:'160px',height:'40px',bgColor:'#bfb345',barColor:'#f3e45b',animationSpeed:600});
-  $('#jqmeter-vertical').jQMeter({goal:'10,000',raised:'9,000',orientation:'vertical',width:'50px',height:'200px',barColor:'#d9235c'});
-  $('#jqmeter-vertical2').jQMeter({goal:'10,000',raised:'4,000',orientation:'vertical',width:'30px',height:'150px',barColor:'#93d5c7',bgColor:'#e1e1e1',displayTotal:false,animationSpeed:400}); 
- 
-});
-</script>
-</head>
-<body>
 <h1>jQMeter</h1>
 <div class="right-col">
 <a href="http://www.gerardolarios.com/jqmeter/js/jqmeter.min.js" class="get" target="_blank">Get jQMeter</a>
@@ -84,6 +58,7 @@ $(document).ready(function(e) {
 
 <h2>Options</h2>
         <table cellspacing="0" cellpadding="0" id="options">
+		 <tbody>
 			<tr>
 
 				<th>Property</th>
@@ -145,6 +120,7 @@ $(document).ready(function(e) {
 				<td>2000</td>
 				<td>Animation time in milliseconds.</td>
 			</tr>
+			</tbody>
 		</table>
         
 <h2>License</h2>
@@ -162,5 +138,3 @@ $(document).ready(function(e) {
 <h2>Author</h2>
 <p>This plugin was written by <a href="http://www.gerardolarios.com" target="_blank">Gerardo Larios</a>.</p>
 </div>
-        </body>
-        </html>
