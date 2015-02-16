@@ -16,12 +16,14 @@
 <h2>How to Use</h2>
 <p>Create an empty wrapper element, in this case a <code>&lt;div&gt;</code>, and assign a unique id or class to it. Then pass that id into the <code>jQMeter()</code> method.</p>
 
-<pre><code><div id="jqmeter-container"></div>
-<script type="text/javascript">       
+<pre><code>
+<div id="jqmeter-container"></div>
+&lt;script type="text/javascript">       
 $(document).ready(function(){ 
     $('#jqmeter-container').jQMeter(); 
 });
-</script></code></pre>
+&lt;/script>
+</code></pre>
 
 <h2>Configuration</h2>
 		<p>jQMeter is pretty much ready to go, and the only necessary parameters to get started are the <code>goal</code> and <code>raised</code> values. It also has several options for customization. Some of these customizations can also be achieved with CSS such as colors, etc. Pass these options as an object into the <code>jQMeter()</code> method like this:</p>
