@@ -54,74 +54,21 @@
     orientation:<span class="yellow">'vertical'</span>,
     width:<span class="yellow">'50px'</span>,
     height:<span class="yellow">'200px'</span>
-});</code></pre>
+});</code>
+</pre>
 
 <h2>Options</h2>
-        <table cellspacing="0" cellpadding="0" id="options">
-		 <tbody>
-			<tr>
-
-				<th>Property</th>
-				<th>Type</th>
-				<th>Default</th>
-				<th>Description</th>
-			</tr>
-            <tr>
-				<td>goal</td>
-				<td>string</td>
-				<td><strong>No default, must be set as option.</strong></td>
-				<td>The goal of the meter. Can take strings like "$9,000" or integers like "9000".</td>
-			</tr>
-			<tr>
-				<td>raised</td>
-				<td>string</td>
-				<td><strong>No default, must be set as option.</strong></td>
-				<td>The goal of the meter. Can take strings like "$9,000" or integers like "9000".</td>
-			</tr>
-			<tr>
-				<td>width</td>
-				<td>string</td>
-				<td>100% - for horizontal<br /><strong>(Must be set for vertical)</strong></td>
-				<td>Set the width of the progress meter. You can pass percentages or pixel based values.</td>
-			</tr>
-			<tr>
-				<td>height</td>
-				<td>string</td>
-				<td>50px - for horizontal<br /><strong>(Must be set for vertical)</strong></td>
-				<td>Set the height of the progress meter. You can pass percentages or pixel based values.</td>
-			</tr>
-			<tr>
-				<td>bgColor</td>
-				<td>string</td>
-				<td>#444</td>
-				<td>Supports hex, rgba, or word values.</td>
-			</tr>
-			<tr>
-				<td>barColor</td>
-				<td>string</td>
-				<td>#bfd255</td>
-				<td>Supports hex, rgba, or word values.</td>
-			</tr>
-			<tr>
-				<td>orientation</td>
-				<td>string</td>
-				<td>horizontal</td>
-				<td>Orientation: 'horizontal' or 'vertical'. If set to 'vertical', width and height need to be specified.</td>
-			</tr>
-			<tr>
-				<td>displayTotal</td>
-				<td>boolean</td>
-				<td>true</td>
-				<td>Whether to display the percentage completed or raised.</td>
-			</tr>
-			<tr>
-				<td>animationSpeed</td>
-				<td>integer</td>
-				<td>2000</td>
-				<td>Animation time in milliseconds.</td>
-			</tr>
-			</tbody>
-		</table>
+| Property      | Type          | Default  | Description |
+| ------------- |:-------------:| -------- | ----------- |
+| goal      | string | <strong>No default, must be set as option.</strong> |The goal of the meter. Can take strings like "$9,000" or integers like "9000".|
+| raised      | string      |   <strong>No default, must be set as option.</strong> |The goal of the meter. Can take strings like "$9,000" or integers like "9000".|
+| width | string      |    100% - for horizontal<br /><strong>(Must be set for vertical)</strong> |Set the width of the progress meter. You can pass percentages or pixel based values.|
+|height|string|50px - for horizontal<br /><strong>(Must be set for vertical)</strong>|Set the height of the progress meter. You can pass percentages or pixel based values.|
+|bgColor|string|#444|Supports hex, rgba, or word values.|
+|barColor|string|#bfd255|Supports hex, rgba, or word values.|
+|orientation|string|horizontal|Orientation: 'horizontal' or 'vertical'. If set to 'vertical', width and height need to be specified.|
+|displayTotal|boolean|true|Whether to display the percentage completed or raised.|
+|animationSpeed|integer|2000|Animation time in milliseconds.|
         
 <h2>License</h2>
 
