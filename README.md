@@ -3,7 +3,7 @@
 <p>It has a simple design out-of-the-box, but this is on purpose so that you can customize the look to match your needs. You can pass several formatting options including width, height, background bar color, bar color, etc. You can also choose to display the percentage completed or not, as well as control the animation speed.</p>
 <p>All you need to do is include the plugin file into your webpage, create a target wrapper element, and pass that element's id into the <code>jQMeter</code> method.</p>
 <h2>Demo</h2>
-<a href="http://www.gerardolarios.com/jqmeter/">View demo</a>
+<a href="http://www.gerardolarios.com/jqmeter/" target="_blank">View demo</a>
 
 <h2>Required Files</h2>
 <ol>
