@@ -3,12 +3,12 @@
 <p>It has a simple design out-of-the-box, but this is on purpose so that you can customize the look to match your needs. You can pass several formatting options including width, height, background bar color, bar color, etc. You can also choose to display the percentage completed or not, as well as control the animation speed.</p>
 <p>All you need to do is include the plugin file into your webpage, create a target wrapper element, and pass that element's id into the <code>jQMeter</code> method.</p>
 <h2>Demo</h2>
-<a href="http://www.gerardolarios.com/jqmeter#demo" target="_blank">View demo</a>
+<a href="http://www.gerardolarios.com/plugins-and-tools/jqmeter#demo" target="_blank">View demo</a>
 
 <h2>Required Files</h2>
 <ol>
   <li><a href="http://www.jquery.com/" target="_blank">jQuery Core JavaScript Library</a></li>
-  <li><a href="http://www.gerardolarios.com/jqmeter/js/jqmeter.min.js" target="_blank">jqmeter.min.js</a></li>
+  <li><a href="http://www.gerardolarios.com/plugins-and-tools/jqmeter/js/jqmeter.min.js" target="_blank">jqmeter.min.js</a></li>
 </ol>
 <p>Include the above files into your webpage and invoke the <code>jQMeter()</code> method.</p>
 <p>You can add your own CSS to style the progress meter to fit your needs.</p>
