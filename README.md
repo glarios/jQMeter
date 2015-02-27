@@ -17,16 +17,16 @@
 <p>Create an empty wrapper element, in this case a <code>&lt;div&gt;</code>, and assign a unique id or class to it. Then pass that id into the <code>jQMeter()</code> method.</p>
 <pre><code>
 &lt;div id="jqmeter-container">&lt;/div>
-&lt;script type="text/javascript">       
-$(document).ready(function(){ 
-    $('#jqmeter-container').jQMeter(); 
+&lt;script type="text/javascript">
+$(document).ready(function(){
+    $('#jqmeter-container').jQMeter();
 });
 &lt;/script>
 </code></pre>
 
 <h2>Configuration</h2>
 		<p>jQMeter is pretty much ready to go, and the only necessary parameters to get started are the <code>goal</code> and <code>raised</code> values. It also has several options for customization. Some of these customizations can also be achieved with CSS such as colors, etc. Pass these options as an object into the <code>jQMeter()</code> method like this:</p>
-<pre><code>$('#jqmeter-container').jQMeter({ 
+<pre><code>$('#jqmeter-container').jQMeter({
     goal:'$1,000',
     raised:'$200',
     orientation:'vertical',
@@ -47,10 +47,11 @@ $(document).ready(function(){
 |orientation|string|horizontal|Orientation: 'horizontal' or 'vertical'. If set to 'vertical', width and height need to be specified.|
 |displayTotal|boolean|true|Whether to display the percentage completed or raised.|
 |animationSpeed|integer|2000|Animation time in milliseconds.|
-        
+|counterSpeed|integer|2000|Counter animation time in milliseconds.|
+
 <h2>License</h2>
 
-<p>jQMeter is free to use under the <a href="http://jquery.org/license" target="_blank">MIT/GPL</a> license for any application. 
+<p>jQMeter is free to use under the <a href="http://jquery.org/license" target="_blank">MIT/GPL</a> license for any application.
 <div class="clear"></div>
 <h2>Author</h2>
 <p>This plugin was written by <a href="http://www.gerardolarios.com" target="_blank">Gerardo Larios</a>.</p>
