@@ -1,0 +1,38 @@
+{
+"name": "jQMeter",
+"title": "jQMeter - Thermometer Plugin",
+"description": "jQuery plugin that allows you to display an animated horizontal or vertical progress meter.",
+"keywords": [
+"progress",
+"animation",
+"thermometer",
+"progress-meter",
+"progress-thermometer",
+ "meter"
+],
+"version": "0.1.1",
+"author": {
+"name": "Gerardo Larios",
+"url": "http://gerardolarios.com/plugins-and-tools/jqmeter/"
+},
+"maintainers": [
+{
+"name": "Gerardo Larios",
+"email": "gerardo@gerardolarios.com",
+"url": "http://gerardolarios.com"
+}
+],
+"licenses": [
+{
+"type": "MIT",
+"url": "https://github.com/glarios/jQMeter/blob/master/LICENSE.txt"
+}
+],
+"bugs": "https://github.com/glarios/jQMeter/issues",
+"homepage": "http://gerardolarios.com/plugins-and-tools/jqmeter/",
+"docs": "http://gerardolarios.com/plugins-and-tools/jqmeter/",
+"download": "http://gerardolarios.com/plugins-and-tools/jqmeter/",
+"dependencies": {
+"jquery": ">=1.5"
+}
+}
