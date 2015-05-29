@@ -29,7 +29,7 @@ $(document).ready(function(){
 <pre><code>$('#jqmeter-container').jQMeter({
     goal:'$1,000',
     raised:'$200',
-    orientation:'vertical',
+    meterOrientation:'vertical',
     width:'50px',
     height:'200px'
 });</code>
@@ -44,7 +44,7 @@ $(document).ready(function(){
 |height|string|50px - for horizontal<br /><strong>(Must be set for vertical)</strong>|Set the height of the progress meter. You can pass percentages or pixel based values.|
 |bgColor|string|#444|Supports hex, rgba, or word values.|
 |barColor|string|#bfd255|Supports hex, rgba, or word values.|
-|orientation|string|horizontal|Orientation: 'horizontal' or 'vertical'. If set to 'vertical', width and height need to be specified.|
+|meterOrientation|string|horizontal|meterOrientation: 'horizontal' or 'vertical'. If set to 'vertical', width and height need to be specified.|
 |displayTotal|boolean|true|Whether to display the percentage completed or raised.|
 |animationSpeed|integer|2000|Animation time in milliseconds.|
 |counterSpeed|integer|2000|Counter animation time in milliseconds.|
