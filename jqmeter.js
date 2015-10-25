@@ -2,7 +2,7 @@
 
 Title:		jQMeter: a jQuery Progress Meter Plugin
 Author:		Gerardo Larios
-Version:	0.1
+Version:	0.1.2
 Website:	http://www.gerardolarios.com/jqmeter
 License: 	Dual licensed under the MIT and GPL licenses.
 
